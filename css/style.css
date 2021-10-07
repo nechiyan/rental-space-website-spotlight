@@ -286,6 +286,7 @@ header div.right nav ul a.button div.search img{
 	}
 	#middle .wrapper div.main p {
 		font-size: 11px;
+	}
 	header div.right nav ul div.down ul li {
 		display: none;
 	}
@@ -306,6 +307,9 @@ header div.right nav ul a.button div.search img{
 	#middle .wrapper div.main h2 {
 		font-size: 25px;
 	}
+	header div.right nav ul li {
+		display: none;
+	}
 	#middle .wrapper div.main p {
 		font-size: 11px;
 		margin: 24px 6px;
@@ -314,7 +318,6 @@ header div.right nav ul a.button div.search img{
 		width: 90%;
 		padding: 5%;
 	}
-	#
 	#middle .wrapper div.main form div.container {
 		width: 17%;
 	}
