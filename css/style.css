@@ -31,7 +31,7 @@ input,textarea,select{
 }
 
 a{
-	color: #1C2C40;
+	color: #657b97;
 }
 a:hover,.submit:hover{
 	filter: alpha(opacity = 85);
@@ -107,12 +107,32 @@ header div.right nav ul{
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	color: black;
 }
 header div.right nav ul li{
-	margin-right: 20px ;
+	margin-right: 20px;
+	/* color: black; */
+	position:relative;
+}
+header div.right nav ul li:after{
+	content:'';
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	background:#54c5ca;
+	bottom:-5%;
+	left:0;
+	border-radius: 10px;
+	transform: scale(0);
+	transition:.4s ease-in-out;
+}
+header div.right nav ul li:hover:after{
+	transform: scale(1);
+	transition: .4s ease-in-out;
 }
 
 header div.right nav ul li a{
+	color: black;
 }
 header div.right nav ul div{
 
@@ -149,6 +169,7 @@ header div.right nav ul a.button{
 	display: inline-block;
 	padding: 10px 10px;
 	border-radius: 30px;
+	color: white;
 }
 header div.right nav ul a.button div.search{
 
@@ -169,15 +190,18 @@ header div.right nav ul a.button div.search img{
 }
 #middle .wrapper div.main h2{
 	font-size: 46px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
+	font-weight: bolder;
+	color: white;
 }
 #middle .wrapper div.main p{
-	font-size: 25px;
-	margin-bottom: 30px;
+	font-size: 17px;
+	margin-bottom: 18px;
+	color: white;
 }
 #middle .wrapper div.main form div.container{
 	background: #ffff;
-	width: 7%;
+	width: 37px;
 }
 #middle .wrapper div.main form input{
 	background: #ffff;
@@ -185,7 +209,7 @@ header div.right nav ul a.button div.search img{
 	width: 70%;
 }
 #middle .wrapper div.main form div.container img{
-	width: 92%;
+	width: 100%;
 	display: block;
 }
 #middle .wrapper form{
@@ -201,4 +225,98 @@ header div.right nav ul a.button div.search img{
 	display: inline-block;
 	padding: 10px 10px;
 	width: 20%;
+}
+@media all and (max-width:1280px){
+	header div.left h1 a img {
+		margin-right: 14px;
+	}
+	header div.right nav ul a.button{
+		margin-left: 20px;
+	}
+	header div.right nav ul{
+		font-size: 12px;
+	}
+	header div.right nav ul li {
+		margin-right: 0px;
+	}
+	header div.right nav ul a.button {
+		margin-left: 20px;
+	}
+}
+@media all and (max-width:980px){
+	#middle .wrapper a.button {
+		width: 26%;
+	}
+	#middle .wrapper form {
+		width: 54%;
+	}
+	#middle .wrapper div.main h2 {
+		font-size: 40px;
+	}
+	header {
+		padding: 20px;
+		align-items: center;
+	}
+	header div.left h1 a img {
+		margin-right: 14px;
+	}
+	header div.right nav ul a.button{
+		margin-left: 20px;
+	}
+	header div.right nav ul{
+		font-size: 12px;
+	}
+	header div.right nav ul li {
+		margin-right: 0px;
+	}
+	header div.right nav ul a.button {
+		margin-left: 20px;
+	}
+	
+	#middle .wrapper div.main form div.container {
+		width: 39px;
+	}
+	#middle .wrapper div.main form div.container img {
+		display: block;
+	}
+}
+@media all and (max-width:768px){
+	#middle .wrapper div.main h2 {
+		font-size: 30px;
+	}
+	#middle .wrapper div.main p {
+		font-size: 11px;
+	header div.right nav ul div.down ul li {
+		display: none;
+	}
+	header div.right nav ul li {
+		display: none;
+	}
+	header div.right nav ul a.button {
+		width: 160px;
+	}
+	#middle .wrapper form {
+		width: 65%;
+	}
+	#middle .wrapper a.button {
+		width: 30%;
+	}
+}
+@media all and (max-width:640px){
+	#middle .wrapper div.main h2 {
+		font-size: 25px;
+	}
+	#middle .wrapper div.main p {
+		font-size: 11px;
+		margin: 24px 6px;
+	}
+	#middle .wrapper form {
+		width: 90%;
+		padding: 5%;
+	}
+	#
+	#middle .wrapper div.main form div.container {
+		width: 17%;
+	}
+		
 }
