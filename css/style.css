@@ -319,7 +319,23 @@ header div.right nav ul a.button div.search img{
 		padding: 5%;
 	}
 	#middle .wrapper div.main form div.container {
-		width: 17%;
+		width: 40px;
 	}
-		
+@media all and (max-width:480px){
+	header div.right nav ul a.button {
+		width: 139px;
+		margin-left: -16px;
+		padding: 6px;
+	}
+	#middle .wrapper form {
+		padding: 4%;
+		width: 254px;
+	}
+	#middle .wrapper div.main form div.container img {
+		width: 38px;
+	}
+	#middle .wrapper a.button {
+		width: 30%;
+		font-size: 13px;
+	}
 }
