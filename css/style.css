@@ -1,0 +1,204 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	/* max-width:980px; */
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+::placeholder {
+  color:#D3CFCB;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+}
+header div.left{
+
+}
+header div.left h1{
+
+}
+header div.left h1 a{
+
+}
+header div.left h1 a img{
+
+}
+header div.right{
+
+}
+header div.right nav{
+
+}
+header div.right nav ul{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+header div.right nav ul li{
+	margin-right: 20px ;
+}
+
+header div.right nav ul li a{
+}
+header div.right nav ul div{
+
+}
+header div.right nav ul div.down{
+	width: 12%;
+}
+header div.right nav ul div.down ul{
+
+}
+header div.right nav ul div.down ul li{
+	margin-right: 0px;
+	display: flex;
+	align-items: center;
+}
+header div.right nav ul div.down ul li a{
+
+}
+header div.right nav ul div.down ul li span{
+	
+}
+header div.right nav ul div.down ul li span.pic{
+	width: 9%;
+	display: block;
+	margin-left: 5px;
+}
+header div.right nav ul div.down ul li span.pic img{
+	display: block;
+	width: 100%;
+}
+header div.right nav ul a.button{
+	cursor: pointer;
+	background: #54C5CA;
+	display: inline-block;
+	padding: 10px 10px;
+	border-radius: 30px;
+}
+header div.right nav ul a.button div.search{
+
+}
+header div.right nav ul a.button div.search img{
+
+}
+#middle{
+
+}
+#middle .wrapper{
+	width: 100%;
+}
+#middle .wrapper div.main{
+	background: #c5d4d1;
+	padding: 100px 60px;
+	text-align: center;
+}
+#middle .wrapper div.main h2{
+	font-size: 46px;
+	margin-bottom: 30px;
+}
+#middle .wrapper div.main p{
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+#middle .wrapper div.main form div.container{
+	background: #ffff;
+	width: 7%;
+}
+#middle .wrapper div.main form input{
+	background: #ffff;
+	padding: 10px 10px;
+	width: 70%;
+}
+#middle .wrapper div.main form div.container img{
+	width: 92%;
+	display: block;
+}
+#middle .wrapper form{
+	display: flex;
+	background: #e3e9e7;
+	align-items: center;
+	width: 50%;
+	margin: 0 auto;
+	padding: 15px;
+}
+#middle .wrapper a.button{
+	background: #54C5CA;
+	display: inline-block;
+	padding: 10px 10px;
+	width: 20%;
+}
